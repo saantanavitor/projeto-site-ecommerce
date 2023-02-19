@@ -1,0 +1,262 @@
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #ad0808;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 30px 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+section{
+    padding: 50px 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.destaques-produtos{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.lista-produtos{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 15px;
+}
+
+.item-imagem img{
+    background: white;
+    width: 100%;
+    height: 300px;
+    object-fit:contain;
+    
+}
+
+.item-informacoes {
+    margin-top: 15px;
+    
+}
+
+.item-informacoes h4, .item-informacoes h5{
+    padding: 4px 5px;
+}
+
+.item-destaque{
+    background-color: rgb(200, 191, 191);
+    border-radius: 10px;
+}
+
+.button-primary{
+    background-color: #ad0808;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #ad0808;
+    
+}
+
+.button-primary:hover{
+    background-color: #fff;
+    color: #ad0808;
+    cursor: pointer;
+}
+
+.produtos{
+    background-color: rgb(170, 170, 176);
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.servicos, .destaques{
+    background-color: rgb(216, 216, 220);
+}
+.servicos-texto-imagem{
+    display: grid;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.imagem-servicos{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+
+.bloco-servicos{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.rodape{
+    background: #ad0808;
+}
+
+.descricao-servicos{
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+    
+}
+
+.rodape ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape li {
+    padding: 30px;
+}
+
+.rodape a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Página de contato */
+
+.formulario-contato{
+    width: 500%;
+}
+
+.formulario-contato label {
+    margin-top: 15px;
+}
+
+.field{
+    padding: 5px 0;
+}
+
+.field label {
+    display: block;
+}
+
+.input-padrao{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding:5px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.pagina-contato{
+    padding: 20px 15px;
+}
+
+.contato-options label{
+    display: flex;
+}
+
+.enviar{
+    background-color: #ad0808;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    border: 1px solid #ad0808;
+}
+
+.enviar:hover{
+    background-color: #fff;
+    color: #ad0808;
+    cursor: pointer;
+}
+
+/* Página de suporte */
+
+.pagina-suporte{
+    padding: 20px 15px;
+}
+
+.mensagem-suporte{
+    margin-top: 15px;
+}
+
+.arquivo-suporte{
+    margin-top: 15px;
+}
+
+.submit-suporte{
+    background-color: #ad0808;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    border: 1px solid #ad0808;
+}
+
+.submit-suporte:hover{
+    background-color: #fff;
+    color: #ad0808;
+    cursor: pointer;
+
+}
+
+/* Página de trabalhe conosco */
+
+.trabalhe-conosco{
+    padding: 20px 15px;
+}
+
+.mensagem-trabalho{
+    margin-top: 15px;
+}
+
+.enviar-curriculo{
+    margin-top: 15px;
+}
+
+.submit-trabalho{
+    background-color: #ad0808;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    border: 1px solid #ad0808;
+}
+
+.submit-trabalho:hover{
+    background-color: #fff;
+    color: #ad0808;
+    cursor: pointer;
+
+}
+
+
